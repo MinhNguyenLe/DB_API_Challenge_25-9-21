@@ -1,0 +1,28 @@
+{
+  "name": "db_api_challenge_25-9-21",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "nodemon src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MinhNguyenLe/DB_API_Challenge_25-9-21.git"
+  },
+  "author": "minhlee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MinhNguyenLe/DB_API_Challenge_25-9-21/issues"
+  },
+  "homepage": "https://github.com/MinhNguyenLe/DB_API_Challenge_25-9-21#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.7",
+    "node-sass": "^6.0.1",
+    "nodemon": "^2.0.13"
+  }
+}
