@@ -23,12 +23,11 @@ const QuizCtrl = {
   },
   setQuiz: async (req, res) => {
     try {
-      const { question, answer1, answer2, answer3, answer4, correct, idTeam } =
-        req.body;
+      const { question, answer, correct, idTeam } = req.body;
 
       const newQuiz = new Quiz({
         question,
-        answer: [answer1, answer2, answer3, answer4],
+        answer: answer,
         correct,
         idTeam,
       });
